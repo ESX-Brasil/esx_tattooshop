@@ -1,7 +1,7 @@
 ESX = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-
+-- correções de bugs
 ESX.RegisterServerCallback('esx_tattooshop:requestPlayerTattoos', function(source, cb)
 	local xPlayer = ESX.GetPlayerFromId(source)
 

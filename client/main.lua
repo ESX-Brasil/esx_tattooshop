@@ -1,7 +1,7 @@
 local currentTattoos, cam, CurrentActionData = {}, -1, {}
 local HasAlreadyEnteredMarker, CurrentAction, CurrentActionMsg
 ESX = nil
-
+-- Correções de bugs
 Citizen.CreateThread(function()
 	while ESX == nil do
 		TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)

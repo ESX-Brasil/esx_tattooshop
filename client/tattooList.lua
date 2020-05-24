@@ -1,5 +1,5 @@
 Config.TattooList = {
-
+--Correções de bugs
 	mpbusiness_overlays = {
 		{nameHash = 'MP_Buis_M_Neck_000', addedX = 0.3, addedY=0.2,addedZ=0.5,rotZ = 119.4, price = 500},
 		{nameHash = 'MP_Buis_M_Neck_001', addedX = 0.3, addedY=-0.2,addedZ=0.7,rotZ = 56.9, price = 500},
